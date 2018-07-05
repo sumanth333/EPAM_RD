@@ -62,7 +62,7 @@ public class Student
 	//This is a method to print a formatted string with spaces
 	public void printTuple()
 	{
-		System.out.printf("%-15s%-15s%-10s%-8d%-5d\n", firstName,lastName,branch,studentID,yearOfStudy);
+		System.out.printf("%-15s%-15s%-15s%-15d%-15d\n", firstName,lastName,branch,studentID,yearOfStudy);
 	}
 	
 	//this method returns the total tupple as a string

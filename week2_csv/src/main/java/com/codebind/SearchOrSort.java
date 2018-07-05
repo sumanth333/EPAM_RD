@@ -96,6 +96,7 @@ public class SearchOrSort
 	 */
 	public void displayRecords()
 	{
+		System.out.printf("%-15s%-15s%-10s%-15s%-15s\n", "First name","Last name","Branch","Student ID","Year Of Study");
 		for(int i=0;i<noOfStudents;++i)
 		{
 			studentsData.get(indexArray[i]).printTuple();
